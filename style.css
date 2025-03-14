@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.projects {
+    display: flex; /* Usando flexbox para alinhar os projetos lado a lado */
+    justify-content: center; /* Centraliza os projetos horizontalmente */
+    flex-wrap: wrap; /* Permite que os projetos se movam para a linha seguinte se necessário */
+    margin: 20px 0; /* Adiciona margem superior e inferior */
+    text-align: center; /* Centraliza o texto dos títulos dos projetos */
+}
+
+h2 {
+    width: 100%; /* Faz o título ocupar toda a largura disponível */
+    text-align: center; /* Centraliza o título */
+}
+
+.project {
+    background: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px; /* Permite que as caixinhas tenham um tamanho mínimo de 300px */
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 0 20px rgba(0, 162, 237, 0.8); /* Efeito de brilho azul */
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+#banner {
+    height: 500px;
+    width: 100%;
+    background-image: url("imagens/02.jpg"); /* Corrigido para o formato correto */
+    background-size: cover; /* Para cobrir todo o banner */
+    background-position: center; /* Para centralizar a imagem */
+}
